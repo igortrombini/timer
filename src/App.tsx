@@ -1,5 +1,14 @@
+import { Button } from "./Components/Button";
+
 export function App() {
   return (
-    <h1>HELLLO</h1>
+    <>
+      <Button variant="primary" />
+      <Button variant="secundary" />
+      <Button variant="danger" />
+      <Button variant="success" />
+      <Button />
+
+    </>
   )
 }
